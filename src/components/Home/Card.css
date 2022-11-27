@@ -1,0 +1,150 @@
+.card{
+    width: 25%;
+}
+
+.cardEle{
+    overflow: hidden;
+    margin: 0 8px;
+    position: relative;
+    transition: box-shadow .2s ease-in-out;
+    filter: none!important;
+    height: 100%;
+}
+
+.cardpic{
+    padding-top: 120%;
+    width: 100%;
+    position: relative;
+}
+
+.cardpic1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    filter: none!important;
+}
+
+.cardpic1 > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-width: 100%;
+    max-height: 100%;
+    transition: opacity .5s linear;
+    opacity: 1;
+    margin: auto;
+    z-index: 0;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+
+}
+
+.cardempty{
+    bottom: 40.6px;
+    position: absolute;
+    bottom: 4px;
+    opacity: 0;
+    width: 100%;
+    padding: 0 8px;
+    transition: opacity .2s .35s;
+}
+
+.carddil{
+    position: absolute;
+    display: inline-block;
+    top: 12px;
+    right: 12px;
+    cursor: pointer;
+}
+
+.cardDetail{
+    width: 100%;
+    padding: 5px 16px 8px;
+    position: relative;
+    background: #fff;
+    z-index: 2;
+}
+
+.brandname{
+    color: #878787;
+    font-size: 14px;
+    font-weight: 500;
+    height: 19.6px;
+}
+
+.productType{
+    display: inline-block;
+    width: calc(100% - 80px);
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding: 0;
+    font-size: 14px;
+    height: 19.6px;
+}
+
+.fAssuredimg{
+    display: inline-block;
+    font-size: 0;
+}
+
+.fAssuredimg > img {
+    height: 18px;
+}
+
+.price{
+    
+    padding: 0 10px 0 0;
+    display: flex;
+    height: 22.4px;
+    align-items: center;
+}
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainprice{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #212121;
+}
+
+.mainprice > img {
+    width: 10px;
+    height: 12px;
+}
+
+.fullprice{
+    text-decoration: line-through;
+    font-size: 14px;
+    color: #878787;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.fullprice > img {
+    width: 7px;
+    height: 10px;
+    margin-left: 4px;
+}
+
+.discount{
+    color: #388e3c;
+    font-size: 13px;
+    letter-spacing: -.2px;
+    font-weight: 500;
+    display: inline-block;
+    margin-left: 8px;
+}

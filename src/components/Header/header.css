@@ -1,0 +1,138 @@
+.header{
+    min-width: 978px;
+    width: 100%;
+    height: 56px;
+    background-color: #2874f0;
+    color: white;
+    display: flex;
+    justify-items:center;
+    align-items: center;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.header__firstDiv{
+    width: 124px;
+    height: 56px;
+}
+
+.header__secondDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__firstPart{
+    display: flex;
+    flex-direction: column;
+    margin-left: 76px;
+    cursor: pointer;
+}
+
+.header__firstPart > img {
+    width: 75px;
+}
+
+.header__firstPartDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -1px;
+    font-family: Roboto,Arial,sans-serif;
+}
+
+.header__firstPartDiv > img {
+    width: 10px;
+    height: 10px;
+}
+
+.header__firstPartDiv > p {
+    font-style: italic;
+    font-size: 11px;
+    margin-right: 2px;
+    font-weight: lighter;
+}
+
+.header__firstPartDiv > span {
+    color: #ffe500;
+    font-weight: 600;
+    margin-right: 2px;
+    margin-left: 2px;
+    font-size: 11px;
+    font-style: italic;
+}
+
+.header__secondPart{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    width: 564px;
+    background-color: #fff;
+    margin-left: 12px;
+    border-radius: 2px;
+}
+
+.header__secondPart > input {
+    border: none;
+    outline: none;
+    width: 510px;
+}
+
+.header__search{
+    color: #2874f0;
+    justify-content: flex-end;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+}
+
+.header__thirdPart{
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+    margin-right: 20px;
+    width: 112px;
+    }
+
+.header__thirdPart > button {
+    color: #2874f0;
+    font-weight: bold;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 5px 40px;
+    border: 1px solid #dbdbdb;
+    font-size: 16px;
+}
+
+.header__fourthPart{
+    margin-left: 30px;
+    margin-right: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.header__fifthPart {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    line-height: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 500;
+    margin-left:20px ;
+    margin-right: 20px;
+}
+
+.header__sixthPart{
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 20px;
+    cursor: pointer;
+}
+

@@ -1,0 +1,33 @@
+.review{
+    padding: 8px;
+    width: 100%;
+    position: relative;
+    flex-flow: row;
+    display: flex;
+    background-color: whitesmoke;
+    
+}
+
+.review2{
+    padding: 8px 0px 0px;
+    display: block;
+    width: 100%;
+}
+
+.reviewdiv{
+    width: 100%;
+    display: flex;
+    flex-flow: wrap;        
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%)
+}
+
+.reviewHeading{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 20px;
+    border-bottom: 1px solid #f0f0f0;
+    width: 100%; 
+}
+

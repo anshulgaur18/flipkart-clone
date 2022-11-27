@@ -1,0 +1,130 @@
+.footer{
+    background-color: whitesmoke !important;
+    min-width: 978px;
+    
+    padding-top: 25px;
+}
+
+.footerDiv{
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    background-color: #172337;
+}
+
+.footer1st{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+   .footer1st1st{
+    padding: 0 25px;
+    color: #878787;
+    background-color: #fff;
+}
+
+.footer1st2nd{
+    clear: both;
+    line-height: 16px;
+    font-size: 11px;
+    margin: 30px 0 15px;
+}
+
+   
+
+.footer1stDiv{
+    float: right;
+    margin: 0 0 30px 50px;
+}
+
+
+.footer2nd > a {
+    color: #2874f0 !important;
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+
+.footer2ns1st{
+    display: flex;
+    flex-flow: row;
+    margin-left: 65px;
+    width: 90%!important;
+    padding-top: 40px;
+}
+
+.footerAbout{
+    flex: 1;
+}
+
+.footerAboutdiv{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.footerAboutdivA{
+    line-height: 2;
+    font-size: 13px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+.footerAddress{
+    flex: 1;
+}
+
+.footerAddressdiv{
+    font-size: 12px;
+    white-space: nowrap;
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+}
+
+.footerAddressdiv1st{
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+
+.footerAddressdiv2nd{
+    font-style: normal;
+    color: #fff;
+    background-color: #172337;
+}
+
+.footerAddressdiv2{
+    font-size: 12px;
+    white-space: nowrap;
+    padding: 0 25px;
+}
+
+.footer2nd2nddiv{
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footer2nd2nddivSpan{
+    color: #fff;
+    margin-left: 8px;
+}
+
+.footer2nd2nddivspan{
+    color: #fff;
+}
+

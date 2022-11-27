@@ -1,0 +1,53 @@
+.footerTableH2{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.footerTableHeading{
+    border-top: 1px solid #e0e0e0;
+    font-weight: 500;
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    list-style: decimal inside;
+}
+
+.footerContent{
+    padding: 10px 0;
+    border-bottom: 1px solid #e0e0e0;
+    list-style: decimal inside;
+}
+
+.footerContent1{
+    width: 275px;
+    vertical-align: top;
+    margin-right: 8px;
+    display: inline-block;
+    color: #2874f0;
+}
+
+.footerConten2{
+    width: 60px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footerTableHeading1{
+    width: 275px;
+    vertical-align: top;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.footerTableHeading2{
+    width: 60px;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.footerContentEnding{
+    font-size: 12px;
+    margin-top: 12px;
+    font-style: italic;
+}
+
+

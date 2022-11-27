@@ -1,0 +1,31 @@
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: -16px;
+    padding: 16px;
+}
+
+.spaan {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    display: inline-block;
+    width: 95%;
+}
+
+.showContent{
+    display: none;
+    margin: 7px 0;
+    
+}
+
+.show{
+    display: block;
+    margin: 7px 0;
+    height: 63px;
+}
+
+

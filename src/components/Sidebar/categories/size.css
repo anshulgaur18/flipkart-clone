@@ -1,0 +1,38 @@
+.size2nd{
+    display: none;
+    margin: 7px 0;
+}
+
+.sizeshow{
+    display: block;
+    margin: 7px 0;
+}
+
+.size{
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;  
+}
+
+.size1st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    margin: -16px;
+    padding: 16px;
+}
+
+.size2nd1{
+    margin: 7px 0;
+}
+
+.size2nd2{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2874f0;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 9px;
+}
+    

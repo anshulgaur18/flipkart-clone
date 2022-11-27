@@ -1,0 +1,353 @@
+.sidebar{
+    flex: 0 0 280px;
+    max-width: 280px;
+    padding: 0px 10px 0px 0px;
+    display: flex;
+    flex-flow: column;
+
+}
+
+.sidebar__components{
+    background: #fff;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+}
+
+.sidebar__firstComponent{
+    padding-bottom: 12px;
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sidebar__secondComponent{
+    font-size: 14px;
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    width: auto;
+}
+
+.sidebar__secondComponent1st{
+    font-size: 12px;
+    font-weight:600;
+    text-transform: uppercase;
+    color: #212121;
+    margin-bottom: 5px;
+}
+
+.sidebar__secondComponent2nd{
+    padding: 5px 0;
+    color: #212121;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar__secondComponent2nd > span {
+    height: 17px;
+    color: #878787;
+}
+
+.sidebar__secondComponent2nd1st{
+    color: #878787;
+}
+
+.sidebar__secondComponent3rd{
+    color: #212121;
+    white-space: nowrap;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.sidebar__thirdComponent{
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+
+.sidebar__fourthComponent{
+    display: flex;
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    justify-content: space-evenly;
+}
+
+.assured{
+    cursor: pointer;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.assured > input {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 1.4px solid #c2c2c2 !important;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    outline: none;
+    vertical-align: top !important;
+}
+
+.fAssured{
+    vertical-align: middle;
+    padding-left: 11px;
+    color: #212121;
+    display: inline-block;
+    width: calc(100% - 25px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+    cursor: pointer;
+    vertical-align: bottom;
+}
+
+.fAssured > img {
+    height: 21px;
+    vertical-align: bottom;
+}
+
+.question{
+    border-radius: 50%;
+    background-color: #fff;
+    color: #878787;
+    font-weight: 500;
+    width: 16px;
+    height: 16px;
+    font-size: 11px;
+    line-height: 16px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 0 1px 0 rgb(0 0 0 / 20%);
+    vertical-align: middle;
+    margin: 0 2px 0 8px;
+    cursor: pointer;
+}
+
+.sidebar__fifthComponent{
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.sidebar__fifthComponent1st{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    display: inline-block;
+}
+
+.sidebar__fifthComponent2nd{
+    height: 25px;
+}
+
+.shadowdiv{
+    height: 100%;
+    position: relative;
+    bottom: -12px;
+}
+   
+
+.shadow{
+    height: 25px;
+    width: 39.4683px;
+    background: #e0e0e0;
+    display: inline-block;
+}
+
+.sidebar__fifthComponent3rd{
+    position: relative;
+    height: 30px;
+    cursor: pointer;
+    width: 238px;
+}
+
+.MuiSlider-thumb{
+    color: white;
+    width: 13px !important;
+    height: 13px !important;
+    box-shadow: none !important;
+}
+
+.flexdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blank{
+    margin-top: -12px;
+}
+
+.blankspace{
+    display: inline-block;
+    text-align: left;
+    user-select: none;
+    color: #c2c2c2;
+    font-size: 20px;
+    width: 39.4683px;
+    height: 28px;
+    content: "\00B7";
+}
+
+.sidebar__fifthComponent4th{
+    color: #a3a3a3;
+    font-size: 14px;
+    margin: 5px -4px 0;
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 246px;
+    height: 24px;
+}
+
+.dropdown{
+    display: inline-block;
+    flex-grow: 2;
+}
+
+.select{
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-radius: 1px;
+    background: #fff;
+    height: 24px;
+    font-size: 14px;
+    color: #212121;
+    line-height: 1;
+    padding: 0 5px;
+    outline: none;
+}
+
+.amount{
+    padding: 0 7px;
+}
+
+.to{
+    display: inline-block;
+    margin: 0 9px;
+    font-size: 14px;
+    color: #878787;
+    line-height: 1;
+    flex: 1;
+    text-align: center;
+}
+
+.sidebar__sixthComponent{
+    padding: 16px;
+    border-bottom: 1px solid #f0f0f0;
+    position: relative;
+}
+
+.sidebar__sixthComponent1st{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    margin: -16px;
+    padding: 16px;
+}
+
+.brand{
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .3px;
+    display: inline-block;
+    width: 95%;
+}
+
+.svg{
+    display: inline-block;
+    cursor: pointer;
+    width: 16px;
+    height: 27px;
+   }
+
+   .sidebar__sixthComponent2nd1{
+    margin: 7px 0;
+   }
+
+   .searchbrand{
+    margin-bottom: 7px;
+   }
+   
+   .checkboxItem{
+    padding: 3px 0;
+   }
+  
+   .checkboxItemdiv{
+    width: 100%;
+    display: inline-block;
+    height: 25.6px;
+   }
+
+   .checkboxItemdiv > input {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    background-color: transparent;
+    border: 1.4px solid #c2c2c2;
+    border-radius: 1.5px;
+    box-sizing: border-box;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+   }
+
+   .puma{
+    vertical-align: middle;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 1;
+    cursor: pointer;
+    display: inline-block;
+   }
+
+   .labl{
+   padding: 3px 0;
+   cursor: pointer;
+    width: 100%;
+    position: relative;
+    display: block;
+   }
+
+   .puma{
+    width: 213px;
+    padding-left: 11px;
+   }
+
+   .sidebar__sixthComponent2nd2{
+    font-size: 12px;
+    font-weight: 600;
+    color: #2874f0;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 9px;
+   }
+
+   .showdiv{
+    display: none;
+    margin: 7px 0;
+    
+}
+
+.showediv{
+    display: block;
+    margin: 7px 0;
+    
+}
