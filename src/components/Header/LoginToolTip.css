@@ -1,0 +1,37 @@
+.MoreToolTip,
+.LoginToolTip{
+    padding: 0px 16px;
+}
+
+.MoreToolTip_in,
+.LoginToolTip_in{
+    display: flex;
+    align-items: center;
+    padding:  15px 0px ;
+    width: 180px;
+}
+.MoreToolTip_in > .MuiSvgIcon-root ,
+.LoginToolTip_in > .MuiSvgIcon-root{
+    margin-right: 10px;
+}
+.MoreToolTip_in > img ,
+.LoginToolTip_in > img{
+    margin-right: 10px;
+    color:#2874f0; 
+    width:16px ;
+     height:16px;
+}
+.MoreToolTip > hr ,
+.LoginToolTip > hr{
+    margin-left: -20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 133%;
+    height: 0.5px;
+    background-color:rgb(233, 233, 233);
+    border: none;
+}
+.MoreToolTip_in:hover ,
+.LoginToolTip_in:hover{
+    cursor: pointer;
+}

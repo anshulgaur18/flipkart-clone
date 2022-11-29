@@ -1,0 +1,44 @@
+.HoverDiv {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  top: 40px;
+  background: #fff;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  z-index: 6;
+  box-shadow: 0 1px 2px 1px rgba(0, 0, 0, .16) ;
+}
+
+.HoverDivF {
+  flex-direction: column;
+  padding: 0 25px;
+  width: 100%;
+  display: flex;
+}
+
+.HoverDivFHeading {
+  margin-top: 5px;
+  padding: 8px 0px;
+  font-weight: 600;
+  color: #212121;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.HoverDivFArr {
+  font-size: 8px;
+  color: rgb(194, 194, 194);
+  vertical-align: middle;
+  width: 17.93px !important;
+  height: 13.4px !important;
+}
+
+.HoverDivFPara{
+   padding: 5px 0px;
+   color: #666;
+   font-size: 13px; 
+}
