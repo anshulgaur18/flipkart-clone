@@ -1,38 +1,65 @@
-import React from 'react';
+import React, { useState } from 'react';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import './Navbar.css';
+import HoverDiv from './HoverDiv';
 
-function Navbar() {
+const Navbar = () => {
+
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);}
+
+    const handleMouseLeave = () => {
+      setIsHovering(false);
+    };
+  
+
   return (
     <div className='navbar'>
     <div className="navbar__spans">
-      <span className='navbar__content'>
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}  className='navbar__content'>
         Electronics
-        <KeyboardArrowDownIcon/>
+        {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
+       
       </span>
-      <span className='navbar__content'>
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='navbar__content'>
         TVs & Appliances
-        <KeyboardArrowDownIcon/>
+        {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
+       
       </span>
-      <span className='navbar__content'>
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='navbar__content'>
         Men
-        <KeyboardArrowDownIcon/>
+       
+        {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
       </span>
-      <span className='navbar__content'>
+    
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='navbar__content'>
         Women
-        <KeyboardArrowDownIcon/>
+        {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
+       
       </span>
-      <span className='navbar__content'>
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='navbar__content'>
         Baby & Kids
-        <KeyboardArrowDownIcon/>
+        {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
+       
       </span>
-      <span className='navbar__content'>
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='navbar__content'>
         Home & Funiture
-        <KeyboardArrowDownIcon/>
+        {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
+       
       </span>
-      <span className='navbar__content'>
+      <span  onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className='navbar__content'>
        Sports,Books & More
-       <KeyboardArrowDownIcon/>
+       {isHovering ? <KeyboardArrowDownIcon/> : <KeyboardArrowDownIcon style={{transform:"rotate(180deg)"}} />}
+        {isHovering && <HoverDiv/>}
+       
       </span>
       <span className='navbar__lessContent'>
         Flights

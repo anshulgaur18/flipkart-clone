@@ -3,8 +3,25 @@ import './header.css'
 import SearchIcon from '@mui/icons-material/Search';
 import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import Tippy from '@tippyjs/react';
+import 'tippy.js/dist/tippy.css';
+import MoreToolTip from './MoreToolTip';
+import LoginToolTip from './LoginToolTip';
+import "tippy.js/themes/light.css";
+import { useState } from 'react';
 
 function Header() {
+
+  const [isHovering, setIsHovering] = useState(false);
+
+  const handleMouseEnter = () => {
+    setIsHovering(true);}
+
+    const handleMouseLeave = () => {
+      setIsHovering(false);
+    };
+  
+
   return (
     <div className='header'>
       <div className="header__firstDiv"></div> 
@@ -20,25 +37,37 @@ function Header() {
         <div className="header__secondPart">
           <input type='text' />
           <div className="header__search">
-            <SearchIcon/>
+            <SearchIcon style={{fontSize:"2.5rem"}}/>
           </div> 
         </div>
         <div className="header__thirdPart">
-          <button>Login</button>
+        <Tippy  theme='light' content={<LoginToolTip/>} interactive={true} > 
+        <button>Login</button>
+        </Tippy>
+       
         </div>
         <div className="header__fourthPart">
           <span>Become a Seller</span>
         </div>
         <div className="header__fifthPart">
-          <span>More</span>
-          <KeyboardArrowDownIcon style={{width:'15x', height:'15px'}}/>
+       
+        <Tippy theme='light' content={<MoreToolTip/>} interactive={true} >
+        <span onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+        <span>More</span>
+        {isHovering ? <KeyboardArrowDownIcon/>:<KeyboardArrowDownIcon style={{width:'1.5rem', height:'1.5rem',transform:"rotate(180deg)"}}/>}
+        </span>
+        </Tippy>
+        
+      
+          
+     
         </div>
         <div className="header__sixthPart">
         <ShoppingCartIcon/>
-        <span style={{marginLeft:'5px'}}>Cart</span>
+        <span style={{marginLeft:'.5rem'}}>Cart</span>
         </div>
       </div> 
-      <div className="header__thirdDiv"></div> 
+      <div className="header__firstDiv"></div> 
     </div>
   );
 };

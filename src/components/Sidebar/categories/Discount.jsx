@@ -20,8 +20,8 @@ function Discount() {
         <span>DISCOUNT</span>
         <div className="changeIcon" style={{ display: 'inline-block',
     cursor: 'pointer',
-    width: '21px',
-    height: '19px'}} >
+    width: '2.1rem',
+    height: '1.9rem'}} >
         {icon ? <KeyboardArrowUpIcon/> : <KeyboardArrowDownIcon/>}
         </div>
        </div>

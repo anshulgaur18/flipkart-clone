@@ -16,11 +16,11 @@ function Size() {
   return (
     <div className='size'>
         <div className="size1st"  onClick={changeIcon}>
-            <div style={{fontSize:'13px' , fontWeight:'600' , fontFamily:'Roboto,Arial,sans-serif'}}>SIZE - UK/INDIA</div>
+            <div style={{fontSize:'1.3rem' , fontWeight:'600' , fontFamily:'Roboto,Arial,sans-serif'}}>SIZE - UK/INDIA</div>
             <div className="svg"  style={{ display: 'inline-block',
     cursor: 'pointer',
-    width: '21px',
-    height: '19px'}} >
+    width: '2.1rem',
+    height: '1.9rem'}} >
             {icon ? <KeyboardArrowUpIcon/> : <KeyboardArrowDownIcon/>}
             </div>
         </div>

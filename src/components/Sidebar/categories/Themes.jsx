@@ -19,24 +19,24 @@ function Themes() {
             <div className="brand">Theme</div>
             <div className="svg"  style={{ display: 'inline-block',
     cursor: 'pointer',
-    width: '21px',
-    height: '19px'}}>
+    width: '2.1rem',
+    height: '1.9rem'}}>
             {icon ? <KeyboardArrowUpIcon/> : <KeyboardArrowDownIcon/>}
             </div>
           </div>
           <div id='downtheme'  className="showdiv" >
             <div className="sidebar__sixthComponent2nd1">
               <div className="searchbrand">
-              <SearchIcon style={{width: '17px',
-    height: '20px',
+              <SearchIcon style={{width: '1.7rem',
+    height: '2.0rem',
     position: 'absolute',
     color: '#878787'}}/>
               <input type="text" placeholder='Search Theme' style={{width: '100%',
-    borderWidth: '0 0 2px',
+    borderWidth: '0 0 .2rem',
     borderColor: '#e0e0e0',
-    height: '20px',
-    fontSize: '14px',
-    padding: '0 0 0 21px',
+    height: '2.0rem',
+    fontSize: '1.4rem',
+    padding: '0 0 0 2.1rem',
     color: '#878787',
     outline: 'none'}} />
               </div>

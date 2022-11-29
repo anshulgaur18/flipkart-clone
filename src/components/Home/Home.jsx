@@ -10,7 +10,7 @@ function Home() {
         <div className="desctop">
             <div className="desctop1">
               <span>Home</span>
-              <KeyboardArrowRightIcon style={{width:'16px' ,height:'27px' }}/>
+              <KeyboardArrowRightIcon style={{width:'1.6rem' ,height:'2.7rem' }}/>
             </div>
             <div className="desctop2">
               <span>Footwear</span>
@@ -40,7 +40,7 @@ function Home() {
         <span className='homeSpan'>(Showing 1 - 40 products of 12,474 products)</span>
         <div className="sortBy">
           <span className='sortspan'>Sort By</span>
-          <div className="sortbycategory" style={{ borderBottom: '2px solid #2874f0', color: '#2874f0'}}>Popularity</div>
+          <div className="sortbycategory" style={{ borderBottom: '.2rem solid #2874f0', color: '#2874f0'}}>Popularity</div>
           <div className="sortbycategory">Price -- Low to High</div>
           <div className="sortbycategory">Price -- High to Low</div>
           <div className="sortbycategory">Newest First</div>

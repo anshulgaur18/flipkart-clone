@@ -15,13 +15,13 @@
     overflow: auto;
     display: block;
     background: #fff;
-    padding: 12px 16px 0;
-    border-bottom: 1px solid #f0f0f0;
-    max-height: 246px;
+    padding: 1.2rem 1.6rem 0;
+    border-bottom: .1rem solid #f0f0f0;
+    max-height: 24.6rem;
 }
 
 .desctop{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #878787;
     display: flex;
     align-items: center;
@@ -30,7 +30,7 @@
 .desctop1{
  display: flex;
  align-items: center;
- width: 51px;
+ width: 5.1rem;
 }
 
 .desctop2{
@@ -48,15 +48,15 @@
 .para{
     clear: both;
     line-height: 1.45;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .para > p {
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-start: 0rem;
+    margin-inline-end: 0rem;
 }
 
 .para > p > a {
@@ -69,16 +69,16 @@
 
 .homeHeading{
     font-weight: 600;
-    font-size: 16px;
-    margin-top: 8px;
+    font-size: 1.6rem;
+    margin-top: .8rem;
     display: inline-block;
 }
 
 .homeSpan{
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 1.0rem;
     color: #878787;
-    font-size: 12px;
+    font-size: 1.2rem;
 }
 
 .sortBy{
@@ -87,11 +87,11 @@
 }
 
 .sortspan{
-    border-bottom: 2px solid transparent;
+    border-bottom: .2rem solid transparent;
     display: inline-block;
     font-weight: 500;
-    padding: 8px 10px 4px 0;
-    font-size: 14px;
+    padding: .8rem 1.0rem .4rem 0;
+    font-size: 1.4rem;
     color: #212121;
     line-height: 1.4;
 }
@@ -99,10 +99,10 @@
 .sortbycategory{
     cursor: default;
     font-weight: 500;
-    padding: 8px 0 4px;
-    margin: 0 10px;
+    padding: .8rem 0 .4rem;
+    margin: 0 1.0rem;
     display: inline-block;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .products{
@@ -124,16 +124,16 @@
 
 .nextPageDiv{
     background: #fff;
-    border-top: 1px solid #e0e0e0;
+    border-top: .1rem solid #e0e0e0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
-    line-height: 32px;
+    padding: 1.0rem;
+    line-height: 3.2rem;
 }
 
 .pageno{
-    padding: 4px 0;
+    padding: .4rem 0;
     text-align: center;
     font-weight: 500;
     display: flex;
@@ -141,7 +141,7 @@
 
 .freespan{
     display: inline-block;
-    width: 1px;
+    width: .1rem;
     height: 100%;
 }
 
@@ -152,49 +152,49 @@
 
 .pagenospan{
     display: inline-block;
-    padding: 0 8px;
+    padding: 0 .8rem;
     cursor: pointer;
-    line-height: 32px;
-    height: 32px;
-    width: 32px;
+    line-height: 3.2rem;
+    height: 3.2rem;
+    width: 3.2rem;
     border-radius: 50%;
 }
 
 .nextspan{
     display: inline-block;
-    line-height: 32px;
+    line-height: 3.2rem;
     color: #2874f0;
-    padding: 0 25px;
+    padding: 0 2.5rem;
 }
 
 .findfor{
-    margin: 10px 0px 0px;
+    margin: 1.0rem 0rem 0rem;
     display: block;
     width: 100%;
     background-color: #fff;
-    font-size: 14px;
-    padding: 16px;
+    font-size: 1.4rem;
+    padding: 1.6rem;
 }
 
 .findforspan{
     font-weight: 500;
-    font-size: 16px;
+    font-size: 1.6rem;
 }
 
 .yesorno{
     display: inline-block;
-    margin-left: 24px;
-    font-size: 16px;
+    margin-left: 2.4rem;
+    font-size: 1.6rem;
 }
 
 .yesornospan{
-    border-radius: 2px;
-    border: 1px solid #d7d7d7;
-    padding: 6px 28px;
-    margin-right: 8px;
+    border-radius: .2rem;
+    border: .1rem solid #d7d7d7;
+    padding: .6rem 2.8rem;
+    margin-right: .8rem;
     font-weight: 500;
     user-select: none;
-    font-size: 14px;
+    font-size: .14rem;
     display: inline-block;
     cursor: pointer;
 }

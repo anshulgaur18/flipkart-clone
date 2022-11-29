@@ -1,7 +1,7 @@
 .sidebar{
-    flex: 0 0 280px;
-    max-width: 280px;
-    padding: 0px 10px 0px 0px;
+    flex: 0 0 28rem;
+    max-width: 28rem;
+    padding: 0rem 1rem 0rem 0rem;
     display: flex;
     flex-flow: column;
 
@@ -9,34 +9,34 @@
 
 .sidebar__components{
     background: #fff;
-    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 6%);
+    box-shadow: 0 .1rem .8rem 0 rgb(0 0 0 / 6%);
 }
 
 .sidebar__firstComponent{
-    padding-bottom: 12px;
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
-    font-size: 18px;
+    padding-bottom: 1.2rem;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
+    font-size: 1.8rem;
     font-weight: 500;
 }
 
 .sidebar__secondComponent{
-    font-size: 14px;
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
+    font-size: 1.4rem;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
     width: auto;
 }
 
 .sidebar__secondComponent1st{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight:600;
     text-transform: uppercase;
     color: #212121;
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
 }
 
 .sidebar__secondComponent2nd{
-    padding: 5px 0;
+    padding: .5rem 0;
     color: #212121;
     white-space: nowrap;
     display: flex;
@@ -44,7 +44,7 @@
 }
 
 .sidebar__secondComponent2nd > span {
-    height: 17px;
+    height: 1.7rem;
     color: #878787;
 }
 
@@ -58,19 +58,19 @@
     display: flex;
     align-items: center;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .sidebar__thirdComponent{
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
     position: relative;
 }
 
 .sidebar__fourthComponent{
     display: flex;
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
     justify-content: space-evenly;
 }
 
@@ -83,11 +83,11 @@
 
 .assured > input {
     position: relative;
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
     background-color: transparent;
-    border: 1.4px solid #c2c2c2 !important;
-    border-radius: 1.5px;
+    border: .14rem solid #c2c2c2 !important;
+    border-radius: .15rem;
     box-sizing: border-box;
     display: inline-block;
     vertical-align: middle;
@@ -98,10 +98,10 @@
 
 .fAssured{
     vertical-align: middle;
-    padding-left: 11px;
+    padding-left: 1.1rem;
     color: #212121;
     display: inline-block;
-    width: calc(100% - 25px);
+    width: calc(100% - 2.5rem);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -111,7 +111,7 @@
 }
 
 .fAssured > img {
-    height: 21px;
+    height: 2.1rem;
     vertical-align: bottom;
 }
 
@@ -120,64 +120,64 @@
     background-color: #fff;
     color: #878787;
     font-weight: 500;
-    width: 16px;
-    height: 16px;
-    font-size: 11px;
-    line-height: 16px;
+    width: 1.6rem;
+    height: 1.6rem;
+    font-size: 1.1rem;
+    line-height: 1.6rem;
     text-align: center;
     display: inline-block;
-    border: 1px solid #e0e0e0;
-    box-shadow: 0 0 1px 0 rgb(0 0 0 / 20%);
+    border: .1rem solid #e0e0e0;
+    box-shadow: 0 0 .1rem 0 rgb(0 0 0 / 20%);
     vertical-align: middle;
-    margin: 0 2px 0 8px;
+    margin: 0 .2rem 0 .8rem;
     cursor: pointer;
 }
 
 .sidebar__fifthComponent{
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
 }
 
 .sidebar__fifthComponent1st{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 500;
     text-transform: uppercase;
-    letter-spacing: .3px;
+    letter-spacing: .03rem;
     display: inline-block;
 }
 
 .sidebar__fifthComponent2nd{
-    height: 25px;
+    height: 2.5rem;
 }
 
 .shadowdiv{
     height: 100%;
     position: relative;
-    bottom: -12px;
+    bottom: -1.2rem;
 }
    
 
 .shadow{
-    height: 25px;
-    width: 39.4683px;
+    height: 2.5rem;
+    width: 3.94683rem;
     background: #e0e0e0;
     display: inline-block;
 }
 
 .sidebar__fifthComponent3rd{
     position: relative;
-    height: 30px;
+    height: 3.0rem;
     cursor: pointer;
-    width: 238px;
+    width: 23.8rem;
 }
 
 .MuiSlider-thumb{
     color: white;
-    width: 13px !important;
-    height: 13px !important;
+    width: 1.3rem !important;
+    height: 1.3rem !important;
     box-shadow: none !important;
 }
 
@@ -188,7 +188,7 @@
 }
 
 .blank{
-    margin-top: -12px;
+    margin-top: -1.2rem;
 }
 
 .blankspace{
@@ -196,21 +196,21 @@
     text-align: left;
     user-select: none;
     color: #c2c2c2;
-    font-size: 20px;
-    width: 39.4683px;
-    height: 28px;
+    font-size: 2.0rem;
+    width: 3.94683rem;
+    height: 2.8rem;
     content: "\00B7";
 }
 
 .sidebar__fifthComponent4th{
     color: #a3a3a3;
-    font-size: 14px;
-    margin: 5px -4px 0;
+    font-size: 1.4rem;
+    margin: .5rem -.4rem 0;
     display: flex;
     align-items: center;
     justify-content: stretch;
-    width: 246px;
-    height: 24px;
+    width: 24.6rem;
+    height: 2.4rem;
 }
 
 .dropdown{
@@ -220,25 +220,25 @@
 
 .select{
     width: 100%;
-    border: 1px solid #e0e0e0;
-    border-radius: 1px;
+    border: .1rem solid #e0e0e0;
+    border-radius: .1rem;
     background: #fff;
-    height: 24px;
-    font-size: 14px;
+    height: 2.4rem;
+    font-size: 1.4rem;
     color: #212121;
     line-height: 1;
-    padding: 0 5px;
+    padding: 0 .5rem;
     outline: none;
 }
 
 .amount{
-    padding: 0 7px;
+    padding: 0 .7rem;
 }
 
 .to{
     display: inline-block;
-    margin: 0 9px;
-    font-size: 14px;
+    margin: 0 .9rem;
+    font-size: 1.4rem;
     color: #878787;
     line-height: 1;
     flex: 1;
@@ -246,8 +246,8 @@
 }
 
 .sidebar__sixthComponent{
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
     position: relative;
 }
 
@@ -256,15 +256,15 @@
     align-items: center;
     justify-content: space-between;
     cursor: pointer;
-    margin: -16px;
-    padding: 16px;
+    margin: -1.6rem;
+    padding: 1.6rem;
 }
 
 .brand{
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: .3px;
+    letter-spacing: .03rem;
     display: inline-block;
     width: 95%;
 }
@@ -272,35 +272,35 @@
 .svg{
     display: inline-block;
     cursor: pointer;
-    width: 16px;
-    height: 27px;
+    width: 1.6rem;
+    height: 2.7rem;
    }
 
    .sidebar__sixthComponent2nd1{
-    margin: 7px 0;
+    margin: .7rem 0;
    }
 
    .searchbrand{
-    margin-bottom: 7px;
+    margin-bottom: .7rem;
    }
    
    .checkboxItem{
-    padding: 3px 0;
+    padding: .3rem 0;
    }
   
    .checkboxItemdiv{
     width: 100%;
     display: inline-block;
-    height: 25.6px;
+    height: 2.56rem;
    }
 
    .checkboxItemdiv > input {
     position: relative;
-    width: 14px;
-    height: 14px;
+    width: 1.4rem;
+    height: 1.4rem;
     background-color: transparent;
-    border: 1.4px solid #c2c2c2;
-    border-radius: 1.5px;
+    border: .14rem solid #c2c2c2;
+    border-radius: .15rem;
     box-sizing: border-box;
     display: inline-block;
     vertical-align: middle;
@@ -309,7 +309,7 @@
 
    .puma{
     vertical-align: middle;
-    font-size: 14px;
+    font-size: .14rem;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -319,7 +319,7 @@
    }
 
    .labl{
-   padding: 3px 0;
+   padding: .3rem 0;
    cursor: pointer;
     width: 100%;
     position: relative;
@@ -327,27 +327,27 @@
    }
 
    .puma{
-    width: 213px;
-    padding-left: 11px;
+    width: 21.3rem;
+    padding-left: 1.1rem;
    }
 
    .sidebar__sixthComponent2nd2{
-    font-size: 12px;
+    font-size: 1.2rem;
     font-weight: 600;
     color: #2874f0;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top: 9px;
+    margin-top: .9rem;
    }
 
    .showdiv{
     display: none;
-    margin: 7px 0;
+    margin: .7rem 0;
     
 }
 
 .showediv{
     display: block;
-    margin: 7px 0;
+    margin: .7rem 0;
     
 }

@@ -16,8 +16,8 @@ function Card({brandname,producttype,mainprice,fullprice,disccount,picsrc}) {
                 <div className="cardempty"></div>
                 <div className="carddil">
                   <FavoriteIcon style={{color: 'lightgray',
-    width: '28px',
-    height: '28px'}}/> 
+    width: '2.8rem',
+    height: '2.8rem'}}/> 
                 </div>
             </div>
             <div className="cardDetail">

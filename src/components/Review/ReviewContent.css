@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: row;
     width: 100%;
-    border-bottom: 1px solid #f0f0f0;
-    padding: 20px 0;
+    border-bottom: .1rem solid #f0f0f0;
+    padding: 2.0rem 0;
 }
 
 .footwearReview1{
@@ -14,10 +14,10 @@
 .footwearReview1pic{
     position: relative;
     float: left;
-    width: 200px;
-    margin: 0 10px;
-    height: 150px;
-    width: 150px;
+    width: 20.0rem;
+    margin: 0 1.0rem;
+    height: 15.0rem;
+    width: 15.0rem;
 }
 
 .footwearReview1pic > img {
@@ -34,22 +34,22 @@
 
 .footwearReview1content{
     overflow: hidden;
-    width: calc(100% - 200px);
+    width: calc(100% - 20.0rem);
     text-overflow: ellipsis;
 }
 
 .footwearReview1contentdiv1{
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.8rem;
     display: block;
     cursor: pointer;
-    margin-bottom: 2px;
+    margin-bottom: .2rem;
 }
 
 .footwearReview1contentdiv2{
-    margin-bottom: 8px;
+    margin-bottom: .8rem;
     line-height: 1.5;
-    font-size: 14px;
+    font-size: 1.4rem;
     display: flex;
 }
 
@@ -57,54 +57,54 @@
     line-height: normal;
     display: inline-block;
     color: #fff;
-    padding: 2px 4px 2px 6px;
-    border-radius: 3px;
+    padding: .2rem .4rem .2rem .6rem;
+    border-radius: .3rem;
     font-weight: 500;
-    font-size: 12px;
+    font-size: 1.2rem;
     vertical-align: middle;
     background-color: #388e3c;
 }
 
 .footwearReview1contentdiv2star > img {
-    margin: 2px 0 0 2px;
-    height: 10px;
+    margin: .2rem 0 0 .2rem;
+    height: 1.0rem;
 }
 
 .footwearReview1contentdiv2span{
-    padding-left: 8px;
+    padding-left: .8rem;
     font-weight: 500;
     color: #878787;
 }
 
 .footwearReview1contentdiv3{
-    margin-bottom: 5px;
+    margin-bottom: .5rem;
     display: flex
 }
 
 .footwearReview1contentdiv3rupee{
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: bold;
     color: #212121;
 }
 
 .footwearReview1contentdiv3rupee > img {
-    width: 10px;
-    height: 10px;
+    width: 1.0rem;
+    height: 1.0rem;
 }
 
 .footwearReview1contentdiv3off{
-    font-size: 14px;
-    margin-left: 12px;
+    font-size: 1.4rem;
+    margin-left: 1.2rem;
     color: #878787;
     font-weight: 400;
 }
 
 .ul{
-    font-size: 14px;
+    font-size: 1.4rem;
 }
 
 .li{
-    padding-bottom: 8px;
+    padding-bottom: .8rem;
 }
 
 .footwearReview2{
@@ -112,8 +112,8 @@
 }
 
 .footwearReview2div1{
-    padding-left: 24px;
-    font-size: 14px;
+    padding-left: 2.4rem;
+    font-size: 1.4rem;
     color: #878787;
 }
 
@@ -121,7 +121,7 @@
     display: inline-block;
     vertical-align: top;
     width: 100%;
-    padding: 0 24px;
+    padding: 0 2.4rem;
 }
 
 .footwearReview2div21{
@@ -131,9 +131,9 @@
 }
 
 .footwearReview2div21p{
-    padding-left: 12px;
-    padding-top: 3px;
-    font-size: 14px;
+    padding-left: 1.2rem;
+    padding-top: .3rem;
+    font-size: 1.4rem;
     color: #212121;
     font-weight: 500;
 }
@@ -145,9 +145,9 @@
 
 .footwearReview2div22span{
     line-height: 1.4;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #212121;
-    margin: 12px 0;
+    margin: 1.2rem 0;
     overflow: hidden;
 }
 
@@ -159,20 +159,20 @@
 }
 
 .footwearReview2div23p1{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #878787;
-    margin-right: 8px;
+    margin-right: .8rem;
     font-weight: 600;
 }
 
 .footwearReview2div23p2{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #878787;
-    padding: 0 6px 0 0;
+    padding: 0 .6rem 0 0;
 }
 
 .footwearReview2div23p3{
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #878787;
-    margin-right: 8px
+    margin-right: .8rem
 }

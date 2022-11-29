@@ -43,24 +43,24 @@ function Footer() {
             ,
             <a href="/">Casual Shoes</a>
             <br />  
-            <h2 style={{    fontSize: '14px',
-               marginBottom: '10px'}}>Grab Amazing Deals on Men's Shoes Online</h2>
+            <h2 style={{    fontSize: '1.4rem',
+               marginBottom: '1.0rem'}}>Grab Amazing Deals on Men's Shoes Online</h2>
             <p>Gentlemen, let us talk about your shoes. After all, mens shoes can make or break any look. It doesnt matter if you're 
             wearing the most expensive three-piece suit, if your shoes dont match your clothes or the occasion, then you might as well
              be in your pyjamas. Fashion is fickle. And the ever-changing world of fashion has also left a mark on men's shoes . Today
               men are becoming more conscious about what kind of shoes they're wearing at any given time. And since your shoes could be
             what draw the most attention, you need to be careful while buying them. So if you're in the market for men's footwear, 
             let's help you buy the perfect pair, or pairs.</p>
-            <h2 style={{    fontSize: '14px',
-               marginBottom: '10px'}}>Grab Amazing Deals on Men's Shoes Online</h2>
+            <h2 style={{    fontSize: '1.4rem',
+               marginBottom: '1.0rem'}}>Grab Amazing Deals on Men's Shoes Online</h2>
             <p>Gentlemen, let us talk about your shoes. After all, mens shoes can make or break any look. It doesnt matter if you're 
             wearing the most expensive three-piece suit, if your shoes dont match your clothes or the occasion, then you might as well
              be in your pyjamas. Fashion is fickle. And the ever-changing world of fashion has also left a mark on men's shoes . Today
               men are becoming more conscious about what kind of shoes they're wearing at any given time. And since your shoes could be
                what draw the most attention, you need to be careful while buying them. So if you're in the market for men's footwear, 
                let's help you buy the perfect pair, or pairs.</p>
-            <h2 style={{    fontSize: '14px',
-               marginBottom: '10px'}}>Grab Amazing Deals on Men's Shoes Online</h2>
+            <h2 style={{    fontSize: '1.4rem',
+               marginBottom: '1.0rem'}}>Grab Amazing Deals on Men's Shoes Online</h2>
             <p>Gentlemen, let us talk about your shoes. After all, mens shoes can make or break any look. It doesnt matter if you're 
             wearing the most expensive three-piece suit, if your shoes dont match your clothes or the occasion, then you might as well
              be in your pyjamas. Fashion is fickle. And the ever-changing world of fashion has also left a mark on men's shoes . Today

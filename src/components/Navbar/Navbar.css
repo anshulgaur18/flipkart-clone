@@ -4,10 +4,10 @@
     font-family: Roboto,Arial,sans-serif;
     letter-spacing: 0;
     align-items: center;
-    height: 40px;
-    max-width: 1248px;
+    height: 4rem;
+    width: 153.6rem;
     margin: auto;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
 }
 
@@ -15,7 +15,9 @@
 display: flex;
 justify-content: space-between;
 position: relative;
-height: 40px;
+height: 4rem;
+margin-left: 14.4rem;
+margin-right: 14.4rem;
 }
 
 /* .navbar__spans > span {

@@ -1,6 +1,6 @@
 .wrapper{
-    padding: 16px;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 1.6rem;
+    border-bottom: .1rem solid #f0f0f0;
     position: relative;
 }
 
@@ -12,7 +12,7 @@
 
 .showedratings{
     display: block;
-    margin: 7px 0;
+    margin: .7rem 0;
 }
 
 .item{
@@ -20,19 +20,19 @@
     justify-content: space-between;
     align-items: center;
     cursor: pointer;
-    margin: -16px;
-    padding: 16px;
+    margin: -1.6rem;
+    padding: 1.6rem;
 }
 
 .item > span {
-    font-size: 13px;
+    font-size: 1.3rem;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: .3px;
+    letter-spacing: .03rem;
     display: inline-block;
     width: 95%;
 }
 
 .star{
-    padding: 3px 0;
+    padding: .3rem 0;
 }

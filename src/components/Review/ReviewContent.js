@@ -57,7 +57,7 @@ function ReviewContent() {
                 </div>
                 <div className="footwearReview2div23">
                     <p className='footwearReview2div23p1'>Flipkart Customer</p>
-                    <CheckCircleIcon style={{width:'14px',height:'14px',marginRight:'4px'}}/>
+                    <CheckCircleIcon style={{width:'1.4rem',height:'1.4rem',marginRight:'.4rem'}}/>
                     <p className='footwearReview2div23p2'>Certified Buyer</p>
                     <p className='footwearReview2div23p3'>May, 2021</p>
                 </div>
@@ -80,7 +80,7 @@ function ReviewContent() {
                 </div>
                 <div className="footwearReview2div23">
                     <p className='footwearReview2div23p1'>Flipkart Customer</p>
-                    <CheckCircleIcon style={{width:'14px',height:'14px',marginRight:'4px'}}/>
+                    <CheckCircleIcon style={{width:'1.4rem',height:'1.4rem',marginRight:'.4rem'}}/>
                     <p className='footwearReview2div23p2'>Certified Buyer</p>
                     <p className='footwearReview2div23p3'>May, 2021</p>
                 </div>

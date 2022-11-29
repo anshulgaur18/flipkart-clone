@@ -4,7 +4,7 @@
 
 .cardEle{
     overflow: hidden;
-    margin: 0 8px;
+    margin: 0 .8rem;
     position: relative;
     transition: box-shadow .2s ease-in-out;
     filter: none!important;
@@ -50,26 +50,26 @@
 }
 
 .cardempty{
-    bottom: 40.6px;
+    bottom: 4.06rem;
     position: absolute;
-    bottom: 4px;
+    bottom: .4rem;
     opacity: 0;
     width: 100%;
-    padding: 0 8px;
+    padding: 0 .8rem;
     transition: opacity .2s .35s;
 }
 
 .carddil{
     position: absolute;
     display: inline-block;
-    top: 12px;
-    right: 12px;
+    top: 1.2rem;
+    right: 1.2rem;
     cursor: pointer;
 }
 
 .cardDetail{
     width: 100%;
-    padding: 5px 16px 8px;
+    padding: .5rem 1.6rem .8rem;
     position: relative;
     background: #fff;
     z-index: 2;
@@ -77,19 +77,19 @@
 
 .brandname{
     color: #878787;
-    font-size: 14px;
+    font-size: 1.4rem;
     font-weight: 500;
-    height: 19.6px;
+    height: 1.96rem;
 }
 
 .productType{
     display: inline-block;
-    width: calc(100% - 80px);
+    width: calc(100% - 8.0rem);
     text-overflow: ellipsis;
     white-space: nowrap;
     padding: 0;
-    font-size: 14px;
-    height: 19.6px;
+    font-size: 1.4rem;
+    height: 1.96rem;
 }
 
 .fAssuredimg{
@@ -98,14 +98,14 @@
 }
 
 .fAssuredimg > img {
-    height: 18px;
+    height: 1.8rem;
 }
 
 .price{
     
-    padding: 0 10px 0 0;
+    padding: 0 1.0rem 0 0;
     display: flex;
-    height: 22.4px;
+    height: 2.24rem;
     align-items: center;
 }
 
@@ -116,35 +116,35 @@
 
 .mainprice{
     display: inline-block;
-    font-size: 16px;
+    font-size: 1.6rem;
     font-weight: 500;
     color: #212121;
 }
 
 .mainprice > img {
-    width: 10px;
-    height: 12px;
+    width: 1.0rem;
+    height: 1.2rem;
 }
 
 .fullprice{
     text-decoration: line-through;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #878787;
     display: inline-block;
-    margin-left: 8px;
+    margin-left: .8rem;
 }
 
 .fullprice > img {
-    width: 7px;
-    height: 10px;
-    margin-left: 4px;
+    width: .7rem;
+    height: 1.0rem;
+    margin-left: .4rem;
 }
 
 .discount{
     color: #388e3c;
-    font-size: 13px;
-    letter-spacing: -.2px;
+    font-size: 1.3rem;
+    letter-spacing: -.02rem;
     font-weight: 500;
     display: inline-block;
-    margin-left: 8px;
+    margin-left: .8rem;
 }
